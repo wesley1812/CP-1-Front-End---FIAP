@@ -8,7 +8,7 @@ function App() {
     <>
       <ExerciseList/>
       <Welcome/>
-      
+      <MotivacionalMessage message={"Vai dar tudo certo! Confia no processo"} author={"ANDRADE, Wesley"}/>
     </>
   )
 }
