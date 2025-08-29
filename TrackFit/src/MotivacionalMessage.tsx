@@ -1,14 +1,17 @@
-interface MotivationalMessageProps {
-  message: string;
-  author: string;
-}
-const MotivationalMessage: React.FC<MotivationalMessageProps> = ({ message, author }) => {
-  return (
-    <div>
-      <p>{message}</p>
-      <p><em>{author}</em></p>
+export default MotivacionalMessage;
+
+export interface MotivacionalMessageProps {
+    message: string;
+    author: string;
+};
+
+  
+export function MotivacionalMessage(props: MotivacionalMessageProps){
+    return (
+    <div style={{ border: '1px solid #ccc', padding: "1rem" }}>
+      <p>{props.message}</p>
+      <p><em>{props.author}</em></p>
     </div>
   );
-};
-export default MotivationalMessage; 
- 
+
+}
