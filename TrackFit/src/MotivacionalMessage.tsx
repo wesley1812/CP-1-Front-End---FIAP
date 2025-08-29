@@ -1,6 +1,8 @@
 import React from 'react';
 
-interface MotivacionalMessageProps {
+export default MotivacionalMessage;
+
+export interface MotivacionalMessageProps {
     message: string;
     author: string;
 };
@@ -13,4 +15,5 @@ export function MotivacionalMessage(props: MotivacionalMessageProps){
       <p><em>{props.author}</em></p>
     </div>
   );
+
 }
