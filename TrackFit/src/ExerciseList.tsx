@@ -1,8 +1,6 @@
-import React from 'react';
-
 export interface ExerciseListProps {
   name: string;
-  reps: 
+  reps: string;
 }
 
 const ExerciseList = () => {
