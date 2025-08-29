@@ -1,5 +1,10 @@
 import React from 'react';
 
+export interface ExerciseListProps {
+  name: string;
+  reps: 
+}
+
 const ExerciseList = () => {
   const exercises = [
     { name: 'Flexão', reps: '3x15' },
